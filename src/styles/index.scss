@@ -11,3 +11,43 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.topStick, .stopLight {
+    background-color: black;
+}
+
+.stopLight{
+    width: 60px;
+    height: 200px;
+    
+}
+.topStick{
+       width: 15px;
+    height: 60px; 
+}
+.light {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+
+}
+
+.light:not(:last-of-type){
+margin-bottom: 5px;
+}
+
+
+.red{
+    background: red;
+}
+
+.yellow {
+    background:orange;
+}
+.green {
+    background:green;
+}
+
+.selected{
+    box-shadow: 7px 7px 10px yellow;
+}
